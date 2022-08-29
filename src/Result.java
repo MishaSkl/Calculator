@@ -12,7 +12,7 @@ public class Result {
                 try {
                     return num1 / num2;
                 } catch (ArithmeticException e){
-                    throw new ArithmeticException("Деление на нуль");
+                    throw new ArithmeticException("Деление на ноль");
                 }
             default: throw new IllegalArgumentException("Не верное выражение");
         }
